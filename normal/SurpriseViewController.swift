@@ -21,7 +21,7 @@ class SurpriseViewController: UIViewController {
         let emoji =  randomMessages[0]
         let alertController = UIAlertController (title: titletext, message: emoji, preferredStyle: UIAlertController.Style.alert)
         
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        alertController.addAction(UIAlertAction(title: "thank you!", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
         
     }
