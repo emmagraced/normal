@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gug-oB-Mau">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Normal View Controller-->
+        <scene sceneID="ND5-3M-Vod">
+            <objects>
+                <viewController id="Rtc-aZ-uvy" customClass="normalViewController" customModule="normal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3Z-qA-871">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="normal." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7d-0d-ZX0">
+                                <rect key="frame" x="101" y="89" width="212" height="64"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="56"/>
+                                <color key="textColor" red="0.96470588235294119" green="0.93725490196078431" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588235294119" green="0.7227643445636639" blue="0.46114876467598592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="9" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[                      ]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR4-ke-mvY">
+                                <rect key="frame" x="58" y="343.5" width="298.5" height="49.5"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[                      ]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mL-Ra-WYN">
+                                <rect key="frame" x="57.5" y="517" width="299" height="50"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[                      ]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Lh-qx-NQy">
+                                <rect key="frame" x="57.5" y="691" width="299" height="50"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGF-ml-ulx">
+                                <rect key="frame" x="148" y="340" width="118" height="53"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="coping">
+                                    <color key="titleColor" red="1" green="0.61960784313725492" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jre-UF-upN" kind="show" id="b9H-Fw-7ul"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ys6-q7-rtE">
+                                <rect key="frame" x="141.5" y="514" width="131" height="53"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="reading">
+                                    <color key="titleColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FMH-RT-V2X" kind="show" id="Pd9-5E-80t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTD-Q1-LgF">
+                                <rect key="frame" x="162.5" y="688" width="89" height="53"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="more">
+                                    <color key="titleColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8tb-6s-e8C" kind="show" id="fgx-JW-0cb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="destroying the stigma." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkB-we-Whq">
+                                <rect key="frame" x="76" y="150" width="262.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="24"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.72276434460000005" blue="0.46114876469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="6" height="-1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKi-l6-Yeu">
+                                <rect key="frame" x="206" y="178" width="30" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="☀️"/>
+                                <connections>
+                                    <segue destination="ue9-hR-gJc" kind="show" id="6Qb-Lg-AXG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.792156862745098" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y7d-0d-ZX0" firstAttribute="top" secondItem="IYg-Zk-GTu" secondAttribute="top" constant="1" id="4Cq-oY-9ia"/>
+                            <constraint firstItem="4Lh-qx-NQy" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="6ts-ut-jJk"/>
+                            <constraint firstItem="4mL-Ra-WYN" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="C8K-Mx-0VN"/>
+                            <constraint firstItem="IYg-Zk-GTu" firstAttribute="bottom" secondItem="4Lh-qx-NQy" secondAttribute="bottom" constant="121" id="Car-f5-woy"/>
+                            <constraint firstItem="WkB-we-Whq" firstAttribute="top" secondItem="y7d-0d-ZX0" secondAttribute="bottom" constant="-3" id="DgU-iV-Ysu"/>
+                            <constraint firstItem="WkB-we-Whq" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="EZl-kk-ff4"/>
+                            <constraint firstItem="XTD-Q1-LgF" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="I6p-Zx-zMZ"/>
+                            <constraint firstItem="y7d-0d-ZX0" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="QMv-Aq-Vuf"/>
+                            <constraint firstItem="OR4-ke-mvY" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="Qzx-Z5-viA"/>
+                            <constraint firstItem="IYg-Zk-GTu" firstAttribute="bottom" secondItem="XTD-Q1-LgF" secondAttribute="bottom" constant="121" id="U4E-Rr-VEF"/>
+                            <constraint firstItem="YGF-ml-ulx" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="Wxq-Lc-sZf"/>
+                            <constraint firstItem="Ys6-q7-rtE" firstAttribute="centerX" secondItem="IYg-Zk-GTu" secondAttribute="centerX" id="Ztz-L8-aB5"/>
+                            <constraint firstItem="XTD-Q1-LgF" firstAttribute="top" secondItem="Ys6-q7-rtE" secondAttribute="bottom" constant="121" id="aAg-Fq-omV"/>
+                            <constraint firstItem="Ys6-q7-rtE" firstAttribute="top" secondItem="OR4-ke-mvY" secondAttribute="bottom" constant="121" id="f9F-dk-Unf"/>
+                            <constraint firstItem="Ys6-q7-rtE" firstAttribute="top" secondItem="YGF-ml-ulx" secondAttribute="bottom" constant="121" id="gcl-hm-7BN"/>
+                            <constraint firstItem="XTD-Q1-LgF" firstAttribute="top" secondItem="4mL-Ra-WYN" secondAttribute="bottom" constant="121" id="xU8-en-5Oj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IYg-Zk-GTu"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="6sI-Ud-3f9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PX4-hf-IEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682.60869565217399" y="98.4375"/>
+        </scene>
+        <!--More View Controller-->
+        <scene sceneID="6FI-rN-qlF">
+            <objects>
+                <viewController id="8tb-6s-e8C" customClass="MoreViewController" customModule="normal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="blr-D0-zct">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MzQ-gQ-rxX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="802"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lf5-X6-Pht">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="802"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="9ce-Hz-rP2">
+                                                <rect key="frame" x="16" y="0.0" width="382" height="802"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hotlines." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxP-Ai-mfh">
+                                                        <rect key="frame" x="54" y="0.0" width="274.5" height="75"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="65"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="7" height="2"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5p-vg-3g1">
+                                                        <rect key="frame" x="89.5" y="86" width="203" height="61"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="30"/>
+                                                        <state key="normal" title="Trevor Project">
+                                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="trevorProject:" destination="8tb-6s-e8C" eventType="touchUpInside" id="Gos-XZ-oj7"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlN-CU-vL0">
+                                                        <rect key="frame" x="106.5" y="158" width="169" height="46"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="30"/>
+                                                        <state key="normal" title="National SH">
+                                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="nationalSH:" destination="8tb-6s-e8C" eventType="touchUpInside" id="DrD-lk-bfT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="media." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFE-uK-ZPu">
+                                                        <rect key="frame" x="84.5" y="215" width="213" height="75"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="65"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="7" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-fB-AA7">
+                                                        <rect key="frame" x="177" y="301" width="28" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="good representation." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNe-38-6Rx">
+                                                        <rect key="frame" x="65.5" y="342" width="251" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Crazy Ex-Girlfriend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjf-ZQ-DPf">
+                                                        <rect key="frame" x="93.5" y="382" width="195.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Queer Eye" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQM-bX-mOe">
+                                                        <rect key="frame" x="134.5" y="416.5" width="113.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- The Good Doctor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fz-tE-3jl">
+                                                        <rect key="frame" x="102" y="451" width="178" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTW-Hg-3ay">
+                                                        <rect key="frame" x="177" y="485.5" width="28" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bad representation. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Oh-pu-Ixc">
+                                                        <rect key="frame" x="70.5" y="526.5" width="241" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 13 Reasons Why" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ro8-LV-rnN">
+                                                        <rect key="frame" x="104.5" y="566.5" width="173.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Split" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vW-aK-vku">
+                                                        <rect key="frame" x="162" y="601" width="58" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Insatiable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ca-2Z-e9l">
+                                                        <rect key="frame" x="138" y="635.5" width="106.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="20"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="-1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="therapy." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LF-cu-L4g">
+                                                        <rect key="frame" x="62.5" y="670" width="257.5" height="75"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="65"/>
+                                                        <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="0.61960784310000006" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="7" height="2"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-T8-DsE">
+                                                        <rect key="frame" x="8" y="756" width="366" height="46"/>
+                                                        <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="30"/>
+                                                        <state key="normal" title="click here for a therapist !">
+                                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="therapist:" destination="8tb-6s-e8C" eventType="touchUpInside" id="LmK-s4-YX1"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="9ce-Hz-rP2" secondAttribute="trailing" constant="16" id="04X-rN-7fM"/>
+                                            <constraint firstItem="9ce-Hz-rP2" firstAttribute="centerY" secondItem="lf5-X6-Pht" secondAttribute="centerY" id="6hh-oM-xHv"/>
+                                            <constraint firstItem="9ce-Hz-rP2" firstAttribute="leading" secondItem="lf5-X6-Pht" secondAttribute="leading" constant="16" id="GTf-40-YOn"/>
+                                            <constraint firstItem="9ce-Hz-rP2" firstAttribute="top" secondItem="lf5-X6-Pht" secondAttribute="top" id="ah6-Rq-d5b"/>
+                                            <constraint firstAttribute="bottom" secondItem="9ce-Hz-rP2" secondAttribute="bottom" id="dgz-Cu-2bF"/>
+                                            <constraint firstItem="9ce-Hz-rP2" firstAttribute="centerX" secondItem="lf5-X6-Pht" secondAttribute="centerX" id="eaG-kw-coA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bUh-Vx-9xO"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ooy-oa-LUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682.60869565217399" y="968.97321428571422"/>
+        </scene>
+        <!--Reading View Controller-->
+        <scene sceneID="DHE-Zw-cUo">
+            <objects>
+                <viewController id="FMH-RT-V2X" customClass="ReadingViewController" customModule="normal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnG-cY-NVh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="reading." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlf-A0-gZq">
+                                <rect key="frame" x="94.5" y="103" width="225" height="65"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="56"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click on the topic to learn!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odi-WA-xab">
+                                <rect key="frame" x="55" y="185" width="304.5" height="29"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="24"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unY-LP-IKt">
+                                <rect key="frame" x="85" y="275" width="239" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="[   ANXIETY   ]">
+                                    <color key="titleColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Anxiety:" destination="FMH-RT-V2X" eventType="touchUpInside" id="jIQ-Fk-oSS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgD-G3-nfG">
+                                <rect key="frame" x="44" y="379" width="321" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="[   DEPRESSION   ]">
+                                    <color key="titleColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Depression:" destination="FMH-RT-V2X" eventType="touchUpInside" id="91D-5S-BcW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCM-x3-oHh">
+                                <rect key="frame" x="94" y="486" width="221" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="[     PTSD     ]">
+                                    <color key="titleColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PTSD:" destination="FMH-RT-V2X" eventType="touchUpInside" id="OWd-x3-BQC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsX-U4-Bg7">
+                                <rect key="frame" x="108" y="602" width="192" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                                <size key="titleShadowOffset" width="7" height="2"/>
+                                <state key="normal" title="[   MORE   ]">
+                                    <color key="titleColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="MORE:" destination="FMH-RT-V2X" eventType="touchUpInside" id="PhO-sO-bCW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Odi-WA-xab" firstAttribute="top" secondItem="jlf-A0-gZq" secondAttribute="bottom" constant="17" id="OCy-8q-7mH"/>
+                            <constraint firstItem="jlf-A0-gZq" firstAttribute="top" secondItem="R4P-HH-WGs" secondAttribute="top" constant="15" id="RZE-Gx-wF3"/>
+                            <constraint firstItem="Odi-WA-xab" firstAttribute="centerX" secondItem="R4P-HH-WGs" secondAttribute="centerX" id="qkI-YM-F48"/>
+                            <constraint firstItem="jlf-A0-gZq" firstAttribute="centerX" secondItem="R4P-HH-WGs" secondAttribute="centerX" id="zDq-cz-KmR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R4P-HH-WGs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tp4-04-wPJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.826086956522" y="367.63392857142856"/>
+        </scene>
+        <!--Surprise View Controller-->
+        <scene sceneID="IUn-kT-h2T">
+            <objects>
+                <viewController id="ue9-hR-gJc" customClass="SurpriseViewController" customModule="normal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qgj-fm-tIr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8XB-eC-HFS">
+                                <rect key="frame" x="109" y="334" width="197" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="181"/>
+                                <state key="normal" title="☀️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="ue9-hR-gJc" eventType="touchUpInside" id="nzz-4y-Dnh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click me for a surprise!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWQ-1D-PYg">
+                                <rect key="frame" x="30" y="557" width="355" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="3" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96092346014161534" blue="0.77908599906277431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="5GS-fF-aaX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUb-T8-FgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679.71014492753625" y="-555.13392857142856"/>
+        </scene>
+        <!--Coping View Controller-->
+        <scene sceneID="GRv-Uj-onx">
+            <objects>
+                <viewController id="jre-UF-upN" customClass="CopingViewController" customModule="normal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Svf-wn-Pq1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="coping." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vua-jN-DFx">
+                                <rect key="frame" x="104" y="123" width="206.5" height="65"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="56"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1i-xi-3Nf">
+                                <rect key="frame" x="124" y="153" width="166" height="195"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="153"/>
+                                <state key="normal" title="☁️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="jre-UF-upN" eventType="touchUpInside" id="fLS-BN-fBr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click me!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgE-q4-4Wc">
+                                <rect key="frame" x="126.5" y="298" width="161.5" height="42.5"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="36"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvu-vM-jPK">
+                                <rect key="frame" x="174" y="328" width="67" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="⛈"/>
+                                <connections>
+                                    <action selector="websiteE:" destination="jre-UF-upN" eventType="touchUpInside" id="0EU-gX-Fci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5w-dD-3Wg">
+                                <rect key="frame" x="174" y="647" width="67" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="🌤"/>
+                                <connections>
+                                    <action selector="website3:" destination="jre-UF-upN" eventType="touchUpInside" id="fGO-rX-T11"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GB-K2-fdc">
+                                <rect key="frame" x="174" y="530" width="67" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="🌦"/>
+                                <connections>
+                                    <action selector="website4:" destination="jre-UF-upN" eventType="touchUpInside" id="4OC-Za-j5m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8We-0v-HUj">
+                                <rect key="frame" x="155" y="731" width="105" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="🌩"/>
+                                <connections>
+                                    <action selector="website5:" destination="jre-UF-upN" eventType="touchUpInside" id="FAU-mA-Xtl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLo-OH-of8">
+                                <rect key="frame" x="174" y="446" width="67" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="⛅️"/>
+                                <connections>
+                                    <action selector="watchButtonTapped:" destination="jre-UF-upN" eventType="touchUpInside" id="4Gs-Ww-aPV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NAMI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCb-e8-Z3q">
+                                <rect key="frame" x="167" y="827" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="31"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="teen vogue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtY-k2-oQq">
+                                <rect key="frame" x="126" y="707" width="164" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="31"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="helpguide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CM-fX-jnu">
+                                <rect key="frame" x="135" y="604" width="147" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="31"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UCLA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdC-vb-ckh">
+                                <rect key="frame" x="160" y="506" width="87" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="31"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="good therapy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2X-xf-eh5">
+                                <rect key="frame" x="105" y="403" width="197" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="31"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.93725490199999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.96470588239999999" green="0.74769290489999995" blue="0.36398728060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="7" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vua-jN-DFx" firstAttribute="top" secondItem="Svf-wn-Pq1" secondAttribute="topMargin" constant="35" id="7yV-Kv-n3K"/>
+                            <constraint firstItem="Vua-jN-DFx" firstAttribute="centerX" secondItem="40q-E8-sju" secondAttribute="centerX" id="TCD-Py-P7P"/>
+                            <constraint firstItem="AgE-q4-4Wc" firstAttribute="centerX" secondItem="40q-E8-sju" secondAttribute="centerX" id="V50-xp-M20"/>
+                            <constraint firstItem="o1i-xi-3Nf" firstAttribute="centerX" secondItem="40q-E8-sju" secondAttribute="centerX" id="a7K-fI-ePN"/>
+                            <constraint firstItem="AgE-q4-4Wc" firstAttribute="top" secondItem="Vua-jN-DFx" secondAttribute="bottom" constant="110" id="osH-mR-3Dg"/>
+                            <constraint firstItem="o1i-xi-3Nf" firstAttribute="top" secondItem="Vua-jN-DFx" secondAttribute="bottom" constant="-35" id="ySl-xX-dh6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="40q-E8-sju"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPM-Fj-4Vt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.826086956522" y="-312.05357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eGo-f6-foh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gug-oB-Mau" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gVh-nv-c1e">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.79215686269999996" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rtc-aZ-uvy" kind="relationship" relationship="rootViewController" id="0ul-Ip-YeK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7l-lK-Ha8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226.08695652173915" y="98.4375"/>
+        </scene>
+    </scenes>
+</document>
